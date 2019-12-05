@@ -35,7 +35,7 @@ spec:
             - name: ADVERTISED_HOSTNAME
               value: "kafka"
             - name: ZOOKEEPER_CONNECT
-              value: "zoo1:2181,zoo2:2181,zoo3:2181"
+              value: "zoo1:2181"
             - name: RETENTION_HOURS
               value: "72"
           ports:
